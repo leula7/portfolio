@@ -1,13 +1,26 @@
-import React from "react";
-
-const Header = ()=>{
-
-   return(
+import  React from 'react';
+import "../css/header.css"
+const Header = ()=> {
+  return (
         <>
-            <h1>HI MLOM</h1>
+            <div className="header">
+                <ul>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        resume
+                    </li>
+                    <li>
+                        Home
+                    </li>
+                    <li>
+                        resume
+                    </li>
+                </ul>
+            </div>
         </>
-   );
-    
+  );
 }
 
 export default Header;

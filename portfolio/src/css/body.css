@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: basic-sans,sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+:root {
+    --header-height: 5.6rem; /* Adjust this value based on your header's actual height */
+    --footer-height: 7.5em; /* Adjust this value based on your footer's actual height */
+  }
+  .content {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  }

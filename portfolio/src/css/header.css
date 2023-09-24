@@ -1,0 +1,24 @@
+/* Adjust the CSS for your header */
+.header {
+    background-color: #4CAF50;
+    position: relative;
+    font-size: large;
+    height: 5.5rem;
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right within the header */
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+  }
+  
+  li {
+    padding: 1rem;
+    color: white;
+    text-align: right;
+    margin-left: auto; /* Push list items to the right */
+  }
+  
