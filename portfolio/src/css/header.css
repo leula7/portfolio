@@ -27,7 +27,7 @@
     border-radius: 50%;
   }
 
-  ul {
+  .header ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -38,8 +38,7 @@
     margin-right: 1rem;
   }
   
-  ul > * {
-    border: 5px solid red;
+  .header ul > * {
     padding: .5rem;
   }
 
@@ -48,3 +47,10 @@
     color:  white;
   }
   
+.header ul li:hover > a{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: .5rem;
+    transition: .8s;
+    color: black;
+  }

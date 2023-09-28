@@ -1,0 +1,43 @@
+.skills ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    gap: 1.5rem;
+    margin-top: 1.3rem;
+}
+
+.skills ul > *{
+    background-color: rgb(150, 178, 156);
+    height: fit-content;
+    color: black;
+    padding: 0 1rem 1.5rem 1rem;
+
+}
+
+.skills ul li:hover > .skills ul li{
+    transform: scale(2);
+}
+
+.skills ul li h3{
+    text-align: center;
+}
+
+.intro img{
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.intro p{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-left: .3rem;
+    flex: 1;
+}
