@@ -1,4 +1,10 @@
 .footer {
-    background-color: aqua;
-    padding: 3em;
+    background-color: #4CAF50;
+    padding: 2em;
+  }
+
+  .footer span{
+    color: white;
+   position: relative;
+   left: 45%;
   }

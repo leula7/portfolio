@@ -1,0 +1,17 @@
+
+.download{
+    display: flex;
+    flex-direction: column; 
+}
+
+.download button{
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: rgb(65, 58, 58);
+    cursor: pointer;
+}
+
+.download button span{
+    color: white;
+
+}

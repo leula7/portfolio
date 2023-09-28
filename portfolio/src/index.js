@@ -1,16 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import App from './App';
-import Header from './components/Header';
 
+const root = document.getElementById('root');
 
-ReactDOM.render(
-  
+// Use createRoot from "react-dom/client"
+const rootElement = ReactDOM.createRoot(root);
+rootElement.render(
   <React.StrictMode>
-     <Header/>
-
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
-

@@ -2,20 +2,22 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    margin: 0;
     font-family: basic-sans,sans-serif;
     color: #333;
-    line-height: 1.6;
     display: flex;
     flex-direction: column;
 }
-:root {
-    --header-height: 5.6rem; /* Adjust this value based on your header's actual height */
-    --footer-height: 7.5em; /* Adjust this value based on your footer's actual height */
-  }
+
   .content {
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    width: 95vw;
+    margin: .3rem auto;
+    min-height: calc(100vh - 112.64px - 59.6px);
+    box-sizing: border-box; 
+    line-height: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
   }
+
