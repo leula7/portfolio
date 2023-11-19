@@ -1,0 +1,56 @@
+@media screen and (max-width: 767px){
+    .text-box p{
+        font-size: 1.2rem;
+        text-align: start;
+    }
+    .logo{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-right: 1rem;
+          align-items: center;
+      }
+      .skills ul >*{
+          width: auto;
+      }
+      .header{
+          display: block;
+      }
+      .header ul{
+          display: none;
+      }
+      label .fa{
+          margin-top: 0;
+          display: block;
+          margin-right: 0;
+          cursor: pointer;
+      }
+      #menu:checked ~ ul{
+          display: block;
+          text-align: center;
+      }
+  
+      .header ul li:hover > a{
+          display: block; 
+        }
+        .intro{
+          margin-bottom: 3rem;
+      }
+  
+  }
+  @media screen and (min-width: 767px) and (max-width: 950px){
+  
+    .text-box p{
+        font-size: 1.1rem;
+        text-align: start;
+    }
+      .skills ul >*{
+          width: auto;
+        }
+        .intro{
+          flex-direction: column;
+        }
+        .intro img{
+          margin-right: 0;
+        }
+  }

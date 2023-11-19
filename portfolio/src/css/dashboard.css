@@ -1,43 +1,76 @@
-.skills ul{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    list-style: none;
-    gap: 1.5rem;
-    margin-top: 1.3rem;
-}
-
-.skills ul > *{
-    background-color: rgb(150, 178, 156);
-    height: fit-content;
-    color: black;
-    padding: 0 1rem 1.5rem 1rem;
-
-}
-
-.skills ul li:hover > .skills ul li{
-    transform: scale(2);
-}
-
-.skills ul li h3{
-    text-align: center;
+.intro,.resume{
+    margin: 1rem auto;
+    width: 90%;
+    /* background-color: rgb(180, 180, 180); */
 }
 
 .intro img{
-    width: 40%;
-    height: 40%;
-    float: right;
+    float: left;
+    width: 20rem;
+    max-height: 20rem;
+    border-radius: 50%;
+    margin-left: 5rem;
 }
 
+.text-box,.resume{
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 70px;
+}
 
-.intro{
+.text-box p,.resume p{
+    margin: 1rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.intro .text-box h1{
+    text-align: center;
+    margin: .5rem;
+    font-size: 2rem;
+} 
+
+
+
+.front-end h2, .back-end h2{
+    background-color: rgb(60, 101, 101);
+    color: white;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.skills ul{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
     flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    align-items: center;
 }
-.intro p{
-    background-color: aliceblue;
-    margin-left: auto;
-    margin-left: .3rem;
-    flex: 1;
+.skills ul >*{
+    background-color: rgb(150, 178, 156);
+    border-radius: 10px;
+    margin-top: .5rem;
+    list-style: none;
+    color: black;
+    padding: 0 1rem 1.5rem 1rem;
+    width: 450px;
+    list-style: none;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
+
+.click{
+    transform: scale(1.5);
+    transition: 2s;
+    position: relative;
+    left: 10%;
+} 
+
+  a:active{
+    background-color: aqua;
+  }

@@ -6,7 +6,7 @@ const Footer = ()=>{
     return(
         <>
             <div className="footer">
-                <span>&copy; Powerd By Leula {year}</span>
+                <span>&copy; Powerd by 2L Dev {year}</span>
             </div>
         </>
     )

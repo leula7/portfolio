@@ -1,17 +1,31 @@
 
 .download{
     display: flex;
-    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.download .fa{
+  margin-right: 1rem;
 }
 
-.download button{
+.download a button{
     margin-top: 1rem;
-    padding: .5rem;
-    background-color: rgb(65, 58, 58);
+    padding: 1.5rem;
+    background-color: rgb(57, 80, 103);
+    border: none;
+    font-size: 1rem;
     cursor: pointer;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 1rem;
 }
 
-.download button span{
+.download a button span{
     color: white;
-
 }
+
+  
+  /* Darker background on mouse-over */
+  .download a button:hover {
+    background-color: RoyalBlue;
+  }

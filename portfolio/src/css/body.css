@@ -7,17 +7,22 @@
 
 body{
     font-family: basic-sans,sans-serif;
+    /* background-color: #444141; */
     color: #333;
     display: flex;
     flex-direction: column;
 }
 
   .content {
-    width: 95vw;
-    margin: .3rem auto;
-    min-height: calc(100vh - 112.64px - 59.6px);
+    /* width: 95vw; */
+    /* margin: .3rem auto; */
+    min-height: calc(100vh - 112.64px - 59.6px - 1rem);
     box-sizing: border-box; 
     line-height: 1.6rem;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
   }
 
+.my_image{
+  cursor: pointer;
+}
