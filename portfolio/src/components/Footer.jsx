@@ -7,8 +7,9 @@ const Footer = ()=>{
     return(
         <>
             <div className="footer">
+             <Contact />
+
                 <span>&copy; Powerd by 2L Dev {year}</span>
-                <Contact />
             </div>
         </>
     )

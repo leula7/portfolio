@@ -69,8 +69,14 @@
     list-style: none;
     box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
     cursor: pointer;
+    transition: 1s;
 }
-
+.skills ul >*:hover{
+    transition: 1s ease-in all;
+    color: white;
+    background-color: rgb(71, 106, 137);
+    align-items: center;
+}
 .click{
     transform: scale(1.5);
     transition: 2s;
