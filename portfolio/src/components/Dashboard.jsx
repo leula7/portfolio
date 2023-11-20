@@ -10,8 +10,7 @@ const Content = ()=>{
     
     return(
         <div className="content">
-            <section class="dashboard">
-                <div class="intro">
+           <div class="intro">
                     {/* <img className="my_image" src={logoimage} alt="it suppose to be my picture"/>                */}
 
                     <Tilt className="Tilt" options={{ max : 55}} style={{ height: 0, width: 400 }} >
@@ -34,9 +33,7 @@ const Content = ()=>{
                         </p>
                    </div>
                 </div>
-            </section>
-            
-            <Contact />
+            {/* <Contact /> */}
         </div>
     )
 }

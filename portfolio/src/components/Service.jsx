@@ -108,7 +108,7 @@ const Service = () =>{
                         </ul>
                     </div>
                 </div>
-                <Contact />
+                {/* <Contact /> */}
         </div>
     )
 }

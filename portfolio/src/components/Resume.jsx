@@ -38,7 +38,7 @@ const Resume = ()=>{
                     Maintenance course at my Campus.
                 </p>
             </div>
-            <Contact />
+            {/* <Contact /> */}
         </div>
     );
 }
