@@ -1,4 +1,7 @@
 @media screen and (max-width: 767px){
+    .resume{
+        max-width: 90%;
+    }
     .intro img{
         float: none;   
         margin-inline: auto;
@@ -46,7 +49,9 @@
   
   }
   @media screen and (min-width: 767px) and (max-width: 950px){
-  
+    .resume{
+        max-width: 90%;
+    }
     .text-box p{
         font-size: 1.1rem;
         text-align: start;

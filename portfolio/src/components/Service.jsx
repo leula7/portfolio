@@ -1,5 +1,4 @@
-import react from 'react';
-import Contact from './Contact';
+import React from 'react';
 
 const Service = () =>{
     

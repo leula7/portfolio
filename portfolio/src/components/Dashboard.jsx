@@ -1,10 +1,7 @@
 import React  from "react";
 import '../css/dashboard.css';
 import logoimage from '../assets/logo.png';
-import Tilt from 'react-parallax-tilt'; // Adjust the actual import path as per your project setup
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Contact from "./Contact";
-
+import Tilt from 'react-parallax-tilt';
 
 const Content = ()=>{
     
@@ -14,7 +11,7 @@ const Content = ()=>{
                     {/* <img className="my_image" src={logoimage} alt="it suppose to be my picture"/>                */}
 
                     <Tilt className="Tilt" options={{ max : 55}} style={{ height: 0, width: 400 }} >
-                        <img className="my_image" src={logoimage} alt="it suppose to be my picture"/>               
+                        <img className="my_image" src={logoimage} alt="jase"/>               
                     </Tilt>
                    <div className="text-box">
                         <h1>Hello, I'm Leul Kahssaye</h1>

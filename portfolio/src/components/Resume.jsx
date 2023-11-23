@@ -1,6 +1,6 @@
 import React from "react";
 import '../css/resume.css';
-import Contact from "./Contact";
+
 const Resume = ()=>{
 
     return(
