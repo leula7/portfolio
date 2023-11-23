@@ -8,6 +8,7 @@ import './css/body.css';
 import './css/responsive.css'
 import Contact from './components/Contact';
 import Service from './components/Service';
+import PageNotFound from './components/404Page';
 //import 'tachyons/css/tachyons.min.css'; // Import the CSS file
 
 
@@ -22,6 +23,7 @@ const App = () => {
               <Route path='/service' element={<Service />}/>
               <Route path='/resume' element={<Resume />}/>
               <Route path='/contact' element={<Contact />}/>
+              <Route path='*' element={<PageNotFound />} />
             </Routes>
         </Router>
       <Footer />
