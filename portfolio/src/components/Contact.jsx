@@ -16,6 +16,7 @@ const  Contact = () =>{
                             <a href="https://t.me/lelekassu" class="fa fa-brands fa-telegram" target="_blank"></a>
                             <a href="https://www.linkedin.com/in/l-k-7546a1284/" class="fa fa-brands fa-linkedin" target="_blank"></a> 
                             <a href="https://github.com/leula7" class="fa fa-brands fa-github" target="_blank"></a>
+                            <a href="mailto:leulkahssaye100@gmail.com" class="fa fa-brands fa-google" target="_blank"></a>
                         </div>
                    
                 </div>
