@@ -1,26 +1,25 @@
 import React from "react";
 import '../css/resume.css';
+import '../css/dashboard.css';
 
 const Resume = ()=>{
 
     return(
         <div className="content">
-        
-           
             <div className="download">
             <a
                 href="resume.pdf"
                 download="resume"
                 target="_blank"
                 rel="noreferrer">
-                <button><span><i class="fa fa-download"></i>Download .pdf file</span></button>
+                <button><span><i className="fa fa-download"></i>Download .pdf file</span></button>
             </a>
             <a
                 href="resume.docx"
                 download="resume"
                 target="_blank"
                 rel="noreferrer">
-                <button><span><i class="fa fa-download"></i>Download .docx file</span></button>
+                <button><span><i className="fa fa-download"></i>Download .docx file</span></button>
             </a>
             </div>
             <div className="resume">

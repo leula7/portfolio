@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../css/dashboard.css';
 const Service = () =>{
     
     const forontEnd = [
@@ -59,15 +59,11 @@ const Service = () =>{
                       web applications.`
         },
     ]
-    // const [click,setClick] = useState("")
 
-    const changeClassName = (val) =>{
-        //setClick("click")
-    }
     return(
         <div className="content">
             
-            <div class="skills">
+            <div className="skills">
                     <div className="front-end">
                         <h2>Fornt-End</h2>
                         <ul>
@@ -93,9 +89,7 @@ const Service = () =>{
                             {
                                 backEnd.map((val,index)=>{
                                     return(
-                                    <li key={index} onClick={()=>{
-                                        changeClassName(val)
-                                    }}>
+                                    <li key={index}>
                                         <div className={"col col"+index}>
                                             <h3>{val.title}</h3>
                                             <p>{val.desc}</p>

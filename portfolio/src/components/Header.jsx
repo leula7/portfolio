@@ -15,11 +15,11 @@ const Header = ()=> {
                         <img src={logoimage} alt='my pic'/>
                     </a>
                     <span className="brandname">2L Dev</span>
-                    <label for="menu">
-                        <i class="fa fa-bars"></i>
+                    <label htmlFor="menu">
+                        <i className="fa fa-bars"></i>
                     </label>
                 </div>
-                <input type='checkbox' id='menu' class="chkbox"/>
+                <input type='checkbox' id='menu' className="chkbox"/>
                 <ul>
                     <li>
                         <a href="/dashboard">Dashboard</a>
@@ -31,10 +31,6 @@ const Header = ()=> {
                     <li>
                         <a href="/resume">Resume</a>
                     </li>
-
-                    {/* <li>
-                        <a href="/Contact">Contact</a>
-                    </li> */}
                 </ul>
             </div>
         </>

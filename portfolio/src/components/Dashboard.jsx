@@ -4,13 +4,13 @@ import logoimage from '../assets/logo.png';
 import Tilt from 'react-parallax-tilt';
 
 const Content = ()=>{
-    
+
     return(
         <div className="content">
-           <div class="intro">
+           <div className="intro">
                     {/* <img className="my_image" src={logoimage} alt="it suppose to be my picture"/>                */}
 
-                    <Tilt className="Tilt" options={{ max : 55}} style={{ height: 0, width: 400 }} >
+                    <Tilt class="Tilt" options={{ max : 55}} style={{ height: 0, width: 400 }} >
                         <img className="my_image" src={logoimage} alt="jase"/>               
                     </Tilt>
                    <div className="text-box">
