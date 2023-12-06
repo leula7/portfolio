@@ -8,15 +8,15 @@ const Resume = ()=>{
         <div className="content">
             <div className="download">
             <a
-                href="resume.pdf"
-                download="resume"
+                href='resume.pdf'
+                download = "resume.pdf"
                 target="_blank"
                 rel="noreferrer">
                 <button><span><i className="fa fa-download"></i>Download .pdf file</span></button>
             </a>
             <a
                 href="resume.docx"
-                download="resume"
+                download="resume.docx"
                 target="_blank"
                 rel="noreferrer">
                 <button><span><i className="fa fa-download"></i>Download .docx file</span></button>
@@ -37,7 +37,6 @@ const Resume = ()=>{
                     Maintenance course at my Campus.
                 </p>
             </div>
-            {/* <Contact /> */}
         </div>
     );
 }
